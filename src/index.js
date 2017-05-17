@@ -2,7 +2,6 @@ import 'babel-polyfill';
 
 import React from 'react';
 import {render} from 'react-dom';
-import App from './components/App';
+import App from './components/App/App';
 
 render(<App />, document.querySelector('#root'));
-
