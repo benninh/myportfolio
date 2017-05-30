@@ -1,13 +1,19 @@
 import React from 'react';
 import styles from './App.css';
 
+import Nav from '../Nav/Nav.js';
+import AboutMe from '../AboutMe/AboutMe.js';
+import Projects from '../Projects/Projects.js';
+import ContactMe from '../ContactMe/ContactMe.js';
+
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <div className={styles.container}>
-          Hello World from the Component!
-        </div>
+      <div className={styles.app}>
+        <Nav />
+        <AboutMe />
+        <Projects />
+        <ContactMe />
       </div>
     );
   }

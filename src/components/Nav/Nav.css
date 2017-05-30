@@ -1,0 +1,30 @@
+.nav {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+}
+
+.name {
+  background: red;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.paths {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.path {
+  background-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
+}

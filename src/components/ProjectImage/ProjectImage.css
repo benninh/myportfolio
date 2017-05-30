@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imageDiv {
+  display: block;
+  margin: auto;
+  /*justify-content: center;*/
+  /*vertical-align: middle;*/
+  /*background-color: pink;*/
+}
+
+.image {
+  width: 95%;
+  height: auto;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-around;
+}
