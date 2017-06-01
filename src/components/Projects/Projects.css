@@ -21,6 +21,7 @@
   background-color: yellow;
   width: 45%;
   height: 400px;
+  margin-left: 3%;
   /*height: 100%;*/
 }
 
@@ -28,9 +29,11 @@
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: center;
+  /*text-align: center;*/
   background-color: green;
   width: 55%;
+  margin: auto;
+  margin-right: 3%;
 }
 
 .header {
@@ -40,4 +43,13 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
+}
+
+.techStack {
+  display: flex;
+}
+
+.tech {
+  margin-left: 3px;
+  margin-right: 3px;
 }

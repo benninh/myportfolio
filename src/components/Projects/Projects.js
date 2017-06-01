@@ -15,8 +15,17 @@ class Projects extends React.Component {
               <ProjectImage project={project}/>
             </div>
             <div className={styles.details}> 
-              <h3>{project.projectTitle}</h3>
-              <h3>description</h3>
+              <h3>{project.titleDisplay}</h3>
+              <p>{project.projectDescription}</p>
+              <div className={styles.techStack}>
+                {project.techStack.map((tech, index) => {
+                  return (
+                    <div className={styles.tech} key={index}>
+                      {tech}
+                    </div>
+                  )
+                })}
+              </div>
             </div>
           </div>
         </div>

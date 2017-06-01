@@ -14,8 +14,11 @@
 }
 
 .image {
-  width: 95%;
+  width: 90%;
   height: auto;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .arrows {

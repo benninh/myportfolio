@@ -13,12 +13,9 @@ class ProjectImage extends React.Component {
       title: this.props.project.projectTitle,
       currentImage: 0
     }
-
-    // this.handleImageForward = this.handleImageForward.bind(this);
-    // this.handleImageBack = this.handleImageBack.bind(this);
   }
 
-  handleImageForward() {
+  handleImageForward = () => {
     var image = projectImages[this.state.title];
     var current = this.state.currentImage;
     if (image[current + 1]) {
@@ -32,7 +29,7 @@ class ProjectImage extends React.Component {
     }
   }
 
-  handleImageBack() {
+  handleImageBack = () => {
     var image = projectImages[this.state.title];
     var current = this.state.currentImage;
     if (image[current - 1]) {
@@ -56,8 +53,8 @@ class ProjectImage extends React.Component {
           <img src={image ? image : placeHolderImg} className={styles.image}/>
         </div>
         <div className={styles.arrows}>
-          <button onClick={this.handleImageBack.bind(this)}>&#60;</button>
-          <button onClick={this.handleImageForward.bind(this)}>&#62;</button>
+          <button onClick={this.handleImageBack}>&#60;</button>
+          <button onClick={this.handleImageForward}>&#62;</button>
         </div>
       </div>
     );

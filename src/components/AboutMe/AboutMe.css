@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+}
+
+.pictureContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.description {
+  width: 60%;
+  /*height: auto;*/
+  /*text-align: center;*/
+  margin: auto;
+}
