@@ -15,7 +15,7 @@ var projectInfo = [
     "titleDisplay": "Beer.ly",
     "projectDescription": `Beer.ly is an application that enables users to map out local brewpubs to locate potential hangout spots with friends. \
                             This application fetches brewery data from BreweryDB according to the autofill search function. \
-                            The data is dynamically rendered to show the drinks that each brewpub has. \
+                            The data is dynamically rendered to show the drinks available at each brewpub. \
                             An interactive map is available to display location pins for each brewpub.`,
     "githubLink": "https://github.com/benninh/beer.ly",
     "githubLogo": "",

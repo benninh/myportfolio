@@ -15,18 +15,30 @@ class Icons extends React.Component {
     return (
       <div className={styles.container}>
         <div className={styles.links}>
-          <a href='https://goo.gl/bkQeMw'>
-            <i className={resume} aria-hidden='true'></i>
-          </a>
-          <a href='https://github.com/benninh'>
-            <i className={git} aria-hidden='true'></i>
-          </a>
-          <a href='https://www.linkedin.com/in/benson-ninh-85764780/'>
-            <i className={linkedIn} aria-hidden='true'></i>
-          </a>
-          <a href='mailto:bensonninh@gmail.com'>
-            <i className={gmail} aria-hidden='true'></i>
-          </a>
+          <div>
+            <a href='https://goo.gl/bkQeMw'>
+              <i className={resume} aria-hidden='true'></i>
+            </a>
+            <div className={styles.iconLabel}>Resume</div>
+          </div>
+          <div>
+            <a href='https://github.com/benninh'>
+              <i className={git} aria-hidden='true'></i>
+            </a>
+            <div className={styles.iconLabel}>Github</div>
+          </div>
+          <div>
+            <a href='https://www.linkedin.com/in/benson-ninh-85764780/'>
+              <i className={linkedIn} aria-hidden='true'></i>
+            </a>
+            <div className={styles.iconLabel}>LinkedIn</div>
+          </div>
+          <div>
+            <a href='mailto:bensonninh@gmail.com'>
+              <i className={gmail} aria-hidden='true'></i>
+            </a>
+            <div className={styles.iconLabel}>Gmail</div>
+          </div>
         </div>
       </div>
     );

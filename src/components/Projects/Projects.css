@@ -10,6 +10,7 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
+  border-color: white;
   align-items: center;
 }
 
@@ -31,6 +32,8 @@
   width: 55%;
   margin: auto;
   margin-right: 3%;
+  font-family: 'Merriweather';
+  color: white;
 }
 
 .header {
@@ -40,6 +43,9 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
+  border-color: white;
+  font-family: 'Merriweather';
+  color: white;
 }
 
 .techStack {
@@ -58,6 +64,7 @@
   background-color: #F3A530;
   font-size: 15px;
   padding: 5px;
+  color: #30499B;
 }
 
 .tools {

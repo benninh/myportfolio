@@ -6,16 +6,31 @@
   border-left: none;
   border-right: none;
   border-width: 1px;
+  font-family: 'Merriweather';
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/web-portfolio-52c16.appspot.com/o/images%2FportfolioBackground.jpg?alt=media&token=acc59edb-15a2-4929-aad5-589d16db1c77');
+  background-size: fill;
 }
 
-.name {
-  /*color: white;*/
+.nameContainer {
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
-
   font-size: 20px;
 }
+
+.name {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .paths {
   display: flex;
   justify-content: space-around;
@@ -23,11 +38,11 @@
 }
 
 .path {
-  /*color: white;*/
-  margin-left: 5px;
-  margin-right: 5px;
+  color: white;
+  /*margin-left: 10px;*/
+  margin-right: 15px;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }

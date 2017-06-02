@@ -53,8 +53,12 @@ class ProjectImage extends React.Component {
           <img src={image ? image : placeHolderImg} className={styles.image}/>
         </div>
         <div className={styles.arrows}>
-          <button onClick={this.handleImageBack}>&#60;</button>
-          <button onClick={this.handleImageForward}>&#62;</button>
+          <div>
+            <i className='fa fa-arrow-circle-left fa-2x' aria-hidden='true' onClick={this.handleImageBack}></i>
+          </div>
+          <div>
+            <i className='fa fa-arrow-circle-right fa-2x' aria-hidden='true' onClick={this.handleImageForward}></i>
+          </div>
         </div>
       </div>
     );

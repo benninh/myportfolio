@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
-  /*color: white;*/
+  font-family: 'Merriweather';
+  padding-top: 75px;
+  padding-bottom: 50px;
+  color: white;
 }
 
 .links {

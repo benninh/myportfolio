@@ -5,8 +5,8 @@ class Nav extends React.Component {
   render() {
     return (
       <div id='nav' className={styles.nav}>
-        <div className={styles.name}>
-          <p>Benson Ninh</p>
+        <div className={styles.nameContainer}>
+          <a href='#top' className={styles.name}>Benson Ninh</a>
         </div>
         <div className={styles.paths}>
           <a href='#projects' className={styles.path}>Projects</a>

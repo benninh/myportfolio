@@ -13,7 +13,7 @@ class Intro extends React.Component {
       <div id='top' className={styles.container}>
         <div>
           <h1>Benson Ninh</h1>
-          <h3>Software Engineer</h3>
+          <h2>Software Engineer</h2>
         </div>
         <Icons />
       </div>

@@ -13,6 +13,9 @@ class ContactMe extends React.Component {
         <div>
           <Icons />
         </div>
+        <div className={styles.finePrint}>
+          <p>Designed and Developed by Benson Ninh</p>
+        </div>
       </div>
     );
   }
