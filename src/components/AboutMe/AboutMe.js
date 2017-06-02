@@ -1,24 +1,21 @@
 import React from 'react';
 import styles from './AboutMe.css';
+import assets from './AboutMeAssets.js'
 
 class AboutMe extends React.Component {
-  render() {
-  
-    var body1 = `\
-    Software Engineer specialized in developing Full Stack applicatons. \
-    My expertise lies in developing React applications with a NodeJS/Express web service, \
-    and in SQL/noSQL databases like MySQL, MongoDB, and Google Firebase. \
-    I view software as a key component to finding and building practical solutions to modern day problems.`;
-
-    var selfie = `https://firebasestorage.googleapis.com/v0/b/web-portfolio-52c16.appspot.com/o/images%2Fselfie2015.jpg?alt=media&token=0c0a2e5f-e0a3-479d-9293-776a0e6d0d40`;
-    
+  render() {    
     return (
       <div id='about' className={styles.container}>
-        <div className={styles.pictureContainer}>
-          <img src={selfie} className={styles.picture}/>
+        <div className={styles.header}>
+          <h2>About Me</h2>
         </div>
-        <div className={styles.description}>
-          <p>{body1}</p>
+        <div className={styles.container2}>
+          <div className={styles.pictureContainer}>
+            <img src={assets.selfie} className={styles.picture}/>
+          </div>
+          <div className={styles.description}>
+            <p>{assets.body}</p>
+          </div>
         </div>
       </div>
     );

@@ -14,8 +14,8 @@ class Projects extends React.Component {
             <div className={styles.image}>
               <ProjectImage project={project}/>
             </div>
-            <div className={styles.details}> 
-              <h3>{project.titleDisplay}</h3>
+            <div className={styles.details}>
+              <div className={styles.title}><h3>{project.titleDisplay}</h3></div>
               <p>{project.projectDescription}</p>
               <div className={styles.techStack}>
                 <i className={tools}></i>

@@ -1,5 +1,4 @@
 .nav {
-  background-color: yellow;
   display: flex;
   justify-content: space-between;
   border-style: solid;
@@ -10,10 +9,12 @@
 }
 
 .name {
-  background: red;
+  /*color: white;*/
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
+
+  font-size: 20px;
 }
 .paths {
   display: flex;
@@ -22,9 +23,11 @@
 }
 
 .path {
-  background-color: red;
+  /*color: white;*/
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
   vertical-align: middle;
+  text-decoration: none;
+  font-size: 17px;
 }
