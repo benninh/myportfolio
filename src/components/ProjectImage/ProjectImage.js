@@ -47,6 +47,9 @@ class ProjectImage extends React.Component {
     var image = projectImages[this.state.title][this.state.currentImage];
     var placeHolderImg = 'https://img.fireden.net/a/image/1445/89/1445897362069.jpg';
 
+    var leftArrowStyle = `${styles.arrows} fa fa-arrow-circle-left fa-2x`
+    var rightArrowStyle = `${styles.arrows} fa fa-arrow-circle-right fa-2x`
+
     return (
       <div className={styles.container}>
         <div className={styles.imageDiv}>
@@ -54,10 +57,14 @@ class ProjectImage extends React.Component {
         </div>
         <div className={styles.arrows}>
           <div>
-            <i className='fa fa-arrow-circle-left fa-2x' aria-hidden='true' onClick={this.handleImageBack}></i>
+            <button className={styles.button} type='button' onClick={this.handleImageBack}>
+              <i className={leftArrowStyle} aria-hidden='true'></i>
+            </button>
           </div>
           <div>
-            <i className='fa fa-arrow-circle-right fa-2x' aria-hidden='true' onClick={this.handleImageForward}></i>
+            <button className={styles.button} type='button' onClick={this.handleImageForward}>
+              <i className={rightArrowStyle} aria-hidden='true'></i>
+            </button>
           </div>
         </div>
       </div>

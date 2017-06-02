@@ -27,3 +27,18 @@
   justify-content: space-around;
   color: #F3A530;
 }
+
+.button {
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.arrows:hover {
+  color: #F9ED3A;
+}
