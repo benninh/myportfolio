@@ -8,6 +8,14 @@
 .links {
   display: flex;
   justify-content: space-around;
+  margin: auto;
   margin-left: 30%;
   margin-right: 30%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #F3A530;
+  margin-left: 2px;
+  margin-right: 2px;
 }

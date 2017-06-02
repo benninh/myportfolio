@@ -4,14 +4,14 @@ import styles from './Nav.css';
 class Nav extends React.Component {
   render() {
     return (
-      <div className={styles.nav}>
+      <div id='nav' className={styles.nav}>
         <div className={styles.name}>
           <p>Benson Ninh</p>
         </div>
         <div className={styles.paths}>
-          <div className={styles.path}>Projects</div>
-          <div className={styles.path}>About</div>
-          <div className={styles.path}>Contact Me</div>
+          <a href='#projects' className={styles.path}>Projects</a>
+          <a href='#about' className={styles.path}>About</a>
+          <a href='#contact' className={styles.path}>Contact Me</a>
         </div>
       </div>
     );

@@ -10,7 +10,7 @@ import Intro from '../Intro/Intro.js';
 class App extends React.Component {
   render() {
     return (
-      <div className={styles.app}>
+      <div id='app' className={styles.app}>
         <Nav />
         <Intro />
         <Projects />

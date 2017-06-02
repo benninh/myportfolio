@@ -6,7 +6,7 @@ import projectList from './projectList.js';
 
 class Projects extends React.Component {
   render() {
-    
+    var tools = `${styles.tools} fa fa-wrench fa-2x`
     var projectDescriptions = projectList.map((project, index) => {
       return (
         <div className={styles.container} key={index}>
@@ -18,6 +18,7 @@ class Projects extends React.Component {
               <h3>{project.titleDisplay}</h3>
               <p>{project.projectDescription}</p>
               <div className={styles.techStack}>
+                <i className={tools}></i>
                 {project.techStack.map((tech, index) => {
                   return (
                     <div className={styles.tech} key={index}>
@@ -33,7 +34,7 @@ class Projects extends React.Component {
     });
 
     return (
-      <div>
+      <div id='projects'>
         <div className={styles.header}>
           <h2>Software Projects</h2>
         </div>

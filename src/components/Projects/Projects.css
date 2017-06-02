@@ -47,9 +47,23 @@
 
 .techStack {
   display: flex;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .tech {
-  margin-left: 3px;
-  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  margin: 3px;
+  /*margin-left: 3px;*/
+  /*margin-right: 3px;*/
+  border-radius: 10px;
+  background-color: #F3A530;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.tools {
+  margin-right: 10px;
+  color: #F9ED3A;
 }

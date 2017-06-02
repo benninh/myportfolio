@@ -7,16 +7,19 @@ var projectInfo = [
                             Utilizing the masonry design concept, widgets can be placed anywhere on the grid, enabling users to create the layout that best suits them.`,
     "githubLink": "https://github.com/benninh/Battleaxe",
     "githubLogo": "",
-    "techStack": ["React-Redux", "Node/Express", "Google Firebase", "Masonry"],
+    "techStack": ["React-Redux", "Node/Express", "Google Firebase", "Google App Engine", "Masonry"],
     "url": "http://bentoboard.co"
   },
   {
     "projectTitle": "BEERLY",
     "titleDisplay": "Beer.ly",
-    "projectDescription": ``,
+    "projectDescription": `Beer.ly is an application that enables users to map out local brewpubs to locate potential hangout spots with friends. \
+                            This application fetches brewery data from BreweryDB according to the autofill search function. \
+                            The data is dynamically rendered to show the drinks that each brewpub has. \
+                            An interactive map is available to display location pins for each brewpub.`,
     "githubLink": "https://github.com/benninh/beer.ly",
     "githubLogo": "",
-    "techStack": ["ReactJS", "Node/Express", "MaterialUI", "AWS", "MongoDB", "BreweryDB", "Heroku"],
+    "techStack": ["ReactJS", "Node/Express", "MaterialUI", "AWS", "MongoDB", "Heroku"],
     "url": "https://hrsf52-beerly.herokuapp.com"
   },
   {
@@ -33,7 +36,9 @@ var projectInfo = [
   {
     "projectTitle": "PACKSIMULATOR",
     "titleDisplay": "Shadowverse Booster Simulator",
-    "projectDescription": "",
+    "projectDescription": `My first attempt at a full-stack application. This is for those, like myself, who play the Shadowverse CCG. \
+                            This fetches data from a MySQL database for cards that belong to the selected booster pack and randomly acquires 8 names from the booster. \
+                            The cards are then dynamically rendered upon click of a booster once the request to the database has been fulfilled.`,
     "githubLink": "https://github.com/benninh/hrsf52-mvp",
     "githubLogo": "",
     "techStack": ["ReactJS", "Node/Express", "MySQL"],
