@@ -8,7 +8,7 @@ class ContactMe extends React.Component {
     return (
       <div id='contact' className={styles.container}>
         <div className={styles.header}>
-          <h2>Contact Me</h2>
+          <h2>Let's Connect!</h2>
         </div>
         <div>
           <Icons />

@@ -15,6 +15,7 @@ class AboutMe extends React.Component {
           </div>
           <div className={styles.description}>
             <p>{assets.body}</p>
+            <p>{assets.bodyContact}</p>
           </div>
         </div>
       </div>
