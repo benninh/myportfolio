@@ -38,9 +38,9 @@ app.listen(port, function(err) {
 /*
 PING WEBSITE EVERY 5 MINUTES SO HEROKU DOESN'T IDLE
 */
-var http = require('http');
+// var http = require('http');
 
-var time = (1000 * 60) * 5
-setInterval(function() {
-  http.get('https://bensonninh.herokuapp.com');
-}, time);
+// var time = (1000 * 60) * 5
+// setInterval(function() {
+//   http.get('http://bensonninh.herokuapp.com');
+// }, time);
