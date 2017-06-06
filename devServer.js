@@ -21,11 +21,16 @@ app.get('*', function(req, res) {
 
 
 var port = process.env.PORT || 3000;
-app.listen(port, 'localhost', function(err) {
+
+app.listen(port, function(err) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log('Listening at http://localhost:' + port);
+  if (port === 3000) {
+    console.log('Listening at http://localhost:' + port);
+  } else {
+    console.log('App is running at https://bensonninh.herokuapp.com');
+  }
 });
