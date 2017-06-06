@@ -11,6 +11,17 @@ var projectInfo = [
     "url": "http://bentoboard.co"
   },
   {
+    "projectTitle": "PORTFOLIO",
+    "titleDisplay": "Web Portfolio",
+    "projectDescription": `My web portfolio, showcasing my past and most recent full stack applications. \
+                            A single page application that is designed to be responsive for all device sizes. \
+                            Currently deployed through Heroku, and planned to migrate to AWS Elastic Beanstalk.`,
+    "githubLink": "https://github.com/benninh/myporfolio",
+    "githubLogo": "",
+    "techStack": ["React", "Node/Express", "Google Firebase", "Heroku"],
+    "url": ""
+  },
+  {
     "projectTitle": "BEERLY",
     "titleDisplay": "Beer.ly",
     "projectDescription": `Beer.ly is an application that enables users to map out local brewpubs to locate potential hangout spots with friends. \
@@ -19,7 +30,7 @@ var projectInfo = [
                             An interactive map is available to display location pins for each brewpub.`,
     "githubLink": "https://github.com/benninh/beer.ly",
     "githubLogo": "",
-    "techStack": ["ReactJS", "Node/Express", "MaterialUI", "AWS", "MongoDB", "Heroku"],
+    "techStack": ["ReactJS", "Node/Express", "MaterialUI", "MongoDB", "Heroku"],
     "url": "https://hrsf52-beerly.herokuapp.com"
   },
   {

@@ -6,7 +6,9 @@
 }
 
 .imageDiv {
+  /*display: flex;*/
   display: block;
+  /*justify-content: center;*/
   margin: auto;
   /*justify-content: center;*/
   /*vertical-align: middle;*/
@@ -14,12 +16,14 @@
 }
 
 .image {
-  width: 90%;
-  height: auto;
+  /*display: block;*/
+  max-width: 80%;
+  /*max-height: 50%;*/
+  margin-top: 5px;
   border-radius: 10px;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid;
-  border-color: #30499B;
+  border-color: #F3A530;
 }
 
 .arrows {
