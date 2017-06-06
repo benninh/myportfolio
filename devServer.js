@@ -1,4 +1,4 @@
-require('newrelic');
+// require('newrelic');
 var path = require('path');
 var express = require('express');
 var webpack = require('webpack');
@@ -39,9 +39,30 @@ app.listen(port, function(err) {
 /*
 PING WEBSITE EVERY 5 MINUTES SO HEROKU DOESN'T IDLE
 */
-// var http = require('http');
+var http = require('http');
 
-// var time = (1000 * 60) * 5
-// setInterval(function() {
-//   http.get('http://bensonninh.herokuapp.com');
-// }, time);
+function pingHeroku() {
+  var time = (1000 * 60) * 5;
+
+  var options = {
+    host: 'bensonninh.herokuapp.com',
+    port: port,
+    path: '/'
+  };
+
+  setInterval(function() {
+    http.get(options, function(res) {
+      res.on('data', function(chunk) {
+        try {
+          console.log('PINGED WEBSITE');
+        } catch (err) {
+          console.log(err.message);
+        }
+      });
+    }).on('error', function(err) {
+      console.log('Error: ', err);
+    });
+  }, time);
+}
+
+pingHeroku();
