@@ -44,14 +44,14 @@ var http = require('http');
 function pingHeroku() {
   var time = (1000 * 60) * 5;
 
-  var options = {
-    host: 'bensonninh.herokuapp.com',
-    port: port,
-    path: '/'
-  };
+  // var options = {
+  //   host: 'bensonninh.herokuapp.com',
+  //   port: port,
+  //   path: '/'
+  // };
 
   setInterval(function() {
-    http.get(options, function(res) {
+    http.get('http://bensonninh.herokuapp.com/', function(res) {
       res.on('data', function(chunk) {
         try {
           console.log('PINGED WEBSITE');
