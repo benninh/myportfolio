@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ProjectImage.css';
-import firebaseApp from './../../firebase.js';
+// import firebaseApp from './../../firebase.js';
 
 import projectImages from './imgURLs';
 
