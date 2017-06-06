@@ -17,8 +17,7 @@
     "url": "https://github.com/benninh/myportfolio/issues"
   },
   "homepage": "https://github.com/benninh/myportfolio#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "autoprefixer": "^7.1.0",
     "babel-core": "^6.24.1",
@@ -32,10 +31,11 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.15.3",
     "firebase": "^4.0.0",
+    "newrelic": "^1.39.1",
     "postcss-loader": "^2.0.5",
-    "style-loader": "^0.17.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "style-loader": "^0.17.0",
     "webpack": "^2.5.1",
     "webpack-dev-middleware": "^1.10.2",
     "webpack-hot-middleware": "^2.18.0"
