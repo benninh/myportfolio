@@ -34,3 +34,13 @@ app.listen(port, function(err) {
     console.log('App is running at https://bensonninh.herokuapp.com');
   }
 });
+
+/*
+PING WEBSITE EVERY 5 MINUTES SO HEROKU DOESN'T IDLE
+*/
+var http = require('http');
+
+var time = (1000 * 60) * 5
+setInterval(function() {
+  http.get('https://bensonninh.herokuapp.com');
+}, time);
