@@ -49,7 +49,7 @@ function pingHeroku() {
   //   port: port,
   //   path: '/'
   // };
-
+  console.log('-----------------5 minute ping interval is set-----------------');
   setInterval(function() {
     http.get('http://bensonninh.herokuapp.com/', function(res) {
       res.on('data', function(chunk) {
