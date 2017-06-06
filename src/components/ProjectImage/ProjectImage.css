@@ -13,11 +13,13 @@
   /*justify-content: center;*/
   /*vertical-align: middle;*/
   /*background-color: pink;*/
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .image {
   /*display: block;*/
-  max-width: 80%;
+  max-width: 90%;
   /*max-height: 50%;*/
   margin-top: 5px;
   border-radius: 10px;

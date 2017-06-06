@@ -1,4 +1,7 @@
 .container {
+  display: block;
+  /*justify-content: center;*/
+  /*margin: auto;*/
 }
 
 .project {
@@ -12,7 +15,9 @@
   border-bottom: none;
   border-color: white;
   align-items: center;
+  margin: auto;
 }
+
 
 .image {
   display:flex;
@@ -111,4 +116,18 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .container {
+    height: 600px;
+  }
 
+  .image {
+    /*margin: auto;*/
+    margin-top: 4%;
+    margin-left: 15%;
+  }
+
+  .details {
+    margin-right: 15%;
+  }
+}

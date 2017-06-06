@@ -3,10 +3,20 @@
   width: 100%;
 }
 
+/*@media screen and (min-width: 2560px) {
+  .app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+  }
+}*/
+
 body {
   background-image: url('https://firebasestorage.googleapis.com/v0/b/web-portfolio-52c16.appspot.com/o/images%2FportfolioBackground.jpg?alt=media&token=acc59edb-15a2-4929-aad5-589d16db1c77');
   background-size: cover;
-  background-repeat: repeat-y;
+  /*background-repeat: repeat-;*/
   background-attachment: fixed;
 
   /*background-color: #30499B;*/
